@@ -17,13 +17,13 @@ const UsuarioSchema = Schema({
     rol: {
         type: Schema.Types.ObjectId,
         ref: "Rol",
-        default: "6190a9562c44e3756847fada",
+        default: "61910739451c678d6cd62983",
         required: true,
     },
     status: {
         type: Schema.Types.ObjectId,
         ref: "EstadosUsuario",
-        default: "6190a89a2c44e3756847face",
+        default: "61910635451c678d6cd62978",
         required: true,
     },
 

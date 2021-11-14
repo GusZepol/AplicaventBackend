@@ -36,7 +36,7 @@ const VentaSchema = Schema(
         estado: {
             type: Schema.Types.ObjectId,
             ref: "EstadosVenta",
-            default: "6190a8da2c44e3756847fad1",
+            default: "619106d0451c678d6cd6297b",
             required: true,
         },
     },
